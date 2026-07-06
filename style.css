@@ -13,7 +13,7 @@ body {
 /* ===== Карточка-визитка ===== */
 .card {
   /* БАГ №4: у карточки нет белого фона. Одно свойство написано с опечаткой. */
-  bacground: #ffffff;
+  background: #ffffff;
 
   width: 360px;
   padding: 32px;
@@ -36,7 +36,7 @@ body {
 .role {
   /* БАГ №5: строка-роль под именем не выделяется — она должна быть фиолетовой и полужирной.
      Потеряна одна «;». */
-  color: #6c5cf0
+  color: #6c5cf0;
   font-weight: 700;
   font-size: 16px;
   margin: 0 0 16px;
@@ -96,7 +96,7 @@ body {
 
 /* ===== Тёмная тема (её включает кнопка «Тема») ===== */
 body.dark {
-  background: #1c2333;
+  background: #af95d0;
   color: #eee;
 }
 
@@ -109,3 +109,14 @@ body.dark .bio,
 body.dark .interests {
   color: #cfd6e6;
 }
+
+.btn1{
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: grey;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+

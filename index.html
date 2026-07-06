@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Моя визитка</title>
 
   <!-- БАГ №1: стили не подключаются. Проверь имя файла — как он называется на самом деле? -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <main class="card">
     <!-- TODO: замени на свои инициалы или любимое эмодзи -->
-    <div class="avatar">🙂</div>
+    <div class="avatar">🐬</div>
 
     <!-- TODO: впиши своё имя -->
-    <h1 class="name">Имя Фамилия</h1>
+    <h1 class="name">Виктория Романова</h1>
 
     <!-- TODO: впиши, кто ты -->
-    <p class="role">Студент 1 курса · будущий фронтендер</p>
+    <p class="role">Студентка 1 курса, будущий фронтенд-разработчик</p>
 
     <!-- TODO: пара предложений о себе -->
     <p class="bio">
-      Здесь коротко о себе: чем занимаешься, что нравится, что хочешь освоить.
+      Я человек-оркестр: одной рукой зажимаю аккорды на укулеле, другой — пишу код.
+      Сейчас переключаюсь между учебой английского и погружением в веб-разработку.
+      Мечтаю создавать не просто сайты, а красивые, удобные продукты, где дизайн дружит с базой данных.
+      Ищу единомышленников для совместных пет-проектов!
     </p>
 
     <h2 class="subtitle">Чем увлекаюсь</h2>
     <ul class="interests">
       <!-- TODO: впиши свои увлечения (можно больше трёх) -->
-      <li>Веб-разработка</li>
+      <li>Укулеле</li>
 
       <!-- БАГ №2: этот пункт списка не отображается как надо. Точно ли это тег списка? -->
-      <il>Музыка</il>
+      <li>Фитнес</li>
 
-      <li>Спорт</li>
+      <li>Английский язык</li>
+
+      <li>Верстка</li>
+
     </ul>
 
     <div class="actions">
@@ -41,15 +49,24 @@
       <button id="contact-btn" class="btn">Показать контакт</button>
 
       <button id="theme-btn" class="btn btn-ghost">🌙 Тема</button>
+
+      <button id="like-btn" class="btn1">❤️ Нравится (0)</button>
+
     </div>
 
     <!-- почта спрятана, пока не нажмут кнопку -->
     <p id="contact" class="contact hidden">
       <!-- TODO: впиши свою почту -->
-      ✉️ me@example.com
+      ✉️ vika2323rom@gmail.com
+    </p>
+    <p>
+      <a href="https://github.com/vika2323rom-crypto" target="_blank" rel="noopener noreferrer">
+        🌐 Мой GitHub
+      </a>
     </p>
   </main>
 
   <script src="script.js"></script>
 </body>
+
 </html>
